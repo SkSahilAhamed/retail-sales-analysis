@@ -8,68 +8,71 @@ The analysis is performed using Python, SQL, and Tableau, with results presented
 ---
 
 ## Objectives
-- Analyze overall revenue and sales performance
-- Identify top-performing products
-- Understand customer purchasing behavior
-- Examine geographic distribution of sales
-- Detect seasonal trends in revenue
+- Analyze overall revenue and sales performance  
+- Identify top-performing products  
+- Understand customer purchasing behavior  
+- Examine geographic distribution of sales  
+- Detect seasonal trends in revenue  
 
 ---
 
 ## Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib)
-- SQL (SQLite)
-- Tableau (Dashboard & Visualization)
-- Excel (Data Source)
+- Python (Pandas, NumPy, Matplotlib)  
+- SQL (SQLite)  
+- Tableau (Dashboard & Visualization)  
+- Excel (Data Source)  
 
 ---
 
 ## Key Metrics
-- Total Revenue: 16.69M
-- Total Orders: ~36K
-- Average Order Value: ~466
-- Total Customers: ~4K
+- Total Revenue: 16.69M  
+- Total Orders: ~35K  
+- Average Order Value: ~466  
+- Total Customers: ~4K  
 
 ---
 
 ## Key Insights
 
-- Revenue shows strong seasonal trends, peaking in October–November, indicating pre-holiday demand.
-- A small number of products contribute a significant portion of total revenue, showing product concentration.
-- The United Kingdom dominates sales, highlighting strong geographic dependency.
-- A large portion of customers are one-time buyers, indicating potential customer retention challenges.
-- High average order value suggests bulk purchasing behavior.
+- Revenue shows strong seasonal trends, peaking in October–November, indicating pre-holiday demand.  
+- A small number of products contribute a significant portion of total revenue, showing product concentration.  
+- The United Kingdom dominates sales, highlighting strong geographic dependency.  
+- A large portion of customers are one-time buyers, indicating potential customer retention challenges.  
+- High average order value suggests bulk purchasing behavior.  
 
 ---
 
 ## Dashboard
 The Tableau dashboard provides an interactive view of:
-- Monthly Revenue Trend
-- Top Products by Revenue
-- Top Countries by Revenue
-- Key Performance Indicators (KPIs)
+- Monthly Revenue Trend  
+- Top Products by Revenue  
+- Top Countries by Revenue  
+- Key Performance Indicators (KPIs)  
 
 ---
 
 ## Project Structure
-
 Retail Project/
 ├── data/
-│   └── processed/
-│       └── retail_cleaned.csv
+│ └── processed/
+│ └── retail_cleaned.csv
+│
 ├── notebooks/
-│   └── 01_data_cleaning_eda.ipynb
+│ └── 01_data_cleaning_eda.ipynb
+│
 ├── sql/
-│   └── 02_sql_analysis.sql
+│ └── 02_sql_analysis.sql
+│
 ├── tableau/
-│   └── retail_sales_dashboard.twbx
+│ └── retail_sales_dashboard.twbx
+│
 └── README.md
 
 ---
 
 ## Data Notes
-- Non-product entries such as postage and manual adjustments were removed during data cleaning.
-- Missing customer IDs were excluded from customer-level analysis.
+- Non-product entries such as postage and manual adjustments were removed during data cleaning.  
+- Missing customer IDs were excluded from customer-level analysis.  
 
 ---
 
@@ -79,11 +82,11 @@ This project demonstrates how data analysis can be used to generate actionable b
 ---
 
 ## Future Improvements
-- Customer segmentation using RFM analysis
-- Predictive sales modeling
-- Power BI dashboard for comparison
+- Customer segmentation using RFM analysis  
+- Predictive sales modeling  
+- Power BI dashboard for comparison  
 
 ---
 
 ## Author
-Sahil Ahamed
+Sk Sahil Ahamed
