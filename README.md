@@ -52,6 +52,7 @@ The Tableau dashboard provides an interactive view of:
 ---
 
 ## Project Structure
+'''
 Retail Project/
 ├── data/
 │ └── processed/
@@ -67,6 +68,7 @@ Retail Project/
 │ └── retail_sales_dashboard.twbx
 │
 └── README.md
+'''
 
 ---
 
