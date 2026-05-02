@@ -52,23 +52,24 @@ The Tableau dashboard provides an interactive view of:
 ---
 
 ## Project Structure
-'''
+
+```
 Retail Project/
 ├── data/
-│ └── processed/
-│ └── retail_cleaned.csv
+│   └── processed/
+│       └── retail_cleaned.csv
 │
 ├── notebooks/
-│ └── 01_data_cleaning_eda.ipynb
+│   └── 01_data_cleaning_eda.ipynb
 │
 ├── sql/
-│ └── 02_sql_analysis.sql
+│   └── 02_sql_analysis.sql
 │
 ├── tableau/
-│ └── retail_sales_dashboard.twbx
+│   └── retail_sales_dashboard.twbx
 │
 └── README.md
-'''
+```
 
 ---
 
