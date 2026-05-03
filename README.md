@@ -25,19 +25,17 @@ The analysis is performed using Python, SQL, and Tableau, with results presented
 ---
 
 ## Key Metrics
-- Total Revenue: 16.69M  
-- Total Orders: ~35K  
-- Average Order Value: ~466  
-- Total Customers: ~4K  
+- Total Revenue: 16.40M  
+- Total Orders: 35,142  
+- Average Order Value: 466.55  
 
 ---
 
 ## Key Insights
 
 - Revenue shows strong seasonal trends, peaking in October–November, indicating pre-holiday demand.  
-- A small number of products contribute a significant portion of total revenue, showing product concentration.  
-- The United Kingdom dominates sales, highlighting strong geographic dependency.  
-- A large portion of customers are one-time buyers, indicating potential customer retention challenges.  
+- A small number of products contribute a significant portion of total revenue, highlighting product concentration.  
+- The United Kingdom dominates sales, indicating heavy geographic dependency.  
 - High average order value suggests bulk purchasing behavior.  
 
 ---
@@ -51,7 +49,20 @@ The Tableau dashboard provides an interactive view of:
 
 ---
 
+## Dataset
+
+Due to GitHub file size limitations, the dataset is not included in this repository.
+
+You can access the cleaned dataset here:  
+[Download Dataset](https://drive.google.com/file/d/1fcC6FGDrBirU0qtBuTytG_6vEgNLB--D/view?usp=drive_link)
+
+Original dataset:  
+https://archive.ics.uci.edu/ml/datasets/online+retail+ii  
+
+---
+
 ## Project Structure
+
 
 ```
 Retail Project/
@@ -73,21 +84,24 @@ Retail Project/
 
 ---
 
+
+---
+
 ## Data Notes
-- Non-product entries such as postage and manual adjustments were removed during data cleaning.  
-- Missing customer IDs were excluded from customer-level analysis.  
+- Non-product entries such as postage and manual adjustments were removed during data cleaning  
+- Missing customer IDs were excluded from analysis  
 
 ---
 
 ## Conclusion
-This project demonstrates how data analysis can be used to generate actionable business insights, highlighting opportunities for improving customer retention, diversifying geographic markets, and optimizing product strategy.
+This project demonstrates how data analysis can be used to generate actionable business insights, particularly in identifying seasonal trends, product performance, and geographic concentration risks.
 
 ---
 
 ## Future Improvements
 - Customer segmentation using RFM analysis  
 - Predictive sales modeling  
-- Power BI dashboard for comparison  
+- Dashboard comparison using Power BI
 
 ---
 
