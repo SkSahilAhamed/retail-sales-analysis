@@ -76,25 +76,13 @@ https://archive.ics.uci.edu/ml/datasets/online+retail+ii
 
 
 ```
-Retail Project/
-├── data/
-│   └── processed/
-│       └── retail_cleaned.csv
-│
-├── notebooks/
-│   └── 01_data_cleaning_eda.ipynb
-│
-├── sql/
-│   └── 02_sql_analysis.sql
-│
-├── tableau/
-│   └── retail_sales_dashboard.twbx
-│
+retail-sales-analysis/
+├── 01_data_cleaning_eda.ipynb
+├── 02_sql_analysis.sql
+├── Dashboard.png
+├── retail_sales_dashboard.twb
 └── README.md
 ```
-
----
-
 
 ---
 
@@ -103,10 +91,6 @@ Retail Project/
 - Missing customer IDs were excluded from analysis  
 
 ---
-
-
----
-
 
 ## Conclusion
 This project demonstrates how data analysis can be used to identify revenue patterns, key products, and market concentration, enabling better business decision-making.
