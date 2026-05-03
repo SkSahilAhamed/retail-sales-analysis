@@ -40,7 +40,7 @@ The analysis is performed using Python, SQL, and Tableau, with results presented
 ## Dashboard
 
 ### Preview
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 ### Download Tableau Workbook
 You can download and explore the Tableau dashboard here:  
