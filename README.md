@@ -1,7 +1,7 @@
 # Retail Sales Analysis Project
 
 ## Overview
-This project analyzes retail transaction data to uncover key business insights related to revenue trends, product performance, customer behavior, and geographic sales distribution.
+This project analyzes retail transaction data to uncover key business insights related to revenue trends, product performance, and geographic sales distribution.
 
 The analysis is performed using Python, SQL, and Tableau, with results presented through an interactive dashboard.
 
@@ -10,7 +10,6 @@ The analysis is performed using Python, SQL, and Tableau, with results presented
 ## Objectives
 - Analyze overall revenue and sales performance  
 - Identify top-performing products  
-- Understand customer purchasing behavior  
 - Examine geographic distribution of sales  
 - Detect seasonal trends in revenue  
 
@@ -20,7 +19,6 @@ The analysis is performed using Python, SQL, and Tableau, with results presented
 - Python (Pandas, NumPy, Matplotlib)  
 - SQL (SQLite)  
 - Tableau (Dashboard & Visualization)  
-- Excel (Data Source)  
 
 ---
 
@@ -32,20 +30,23 @@ The analysis is performed using Python, SQL, and Tableau, with results presented
 ---
 
 ## Key Insights
-
-- Revenue shows strong seasonal trends, peaking in October–November, indicating pre-holiday demand.  
-- A small number of products contribute a significant portion of total revenue, highlighting product concentration.  
-- The United Kingdom dominates sales, indicating heavy geographic dependency.  
-- High average order value suggests bulk purchasing behavior.  
+- Revenue peaks in October–November, indicating strong seasonal demand  
+- A small group of products drives a large share of total revenue  
+- The United Kingdom contributes the majority of sales, showing geographic concentration  
+- High average order value suggests bulk purchasing behavior  
 
 ---
 
 ## Dashboard
-The Tableau dashboard provides an interactive view of:
-- Monthly Revenue Trend  
-- Top Products by Revenue  
-- Top Countries by Revenue  
-- Key Performance Indicators (KPIs)  
+
+### Preview
+![Dashboard](dashboard.png)
+
+### Download Tableau Workbook
+You can download and explore the Tableau dashboard here:  
+https://drive.google.com/file/d/1BLGyeP7nh_4icvneTYtaSt0IAA9mZ0np/view?usp=drive_link 
+
+Note: The workbook requires the dataset to be downloaded and connected manually.
 
 ---
 
@@ -53,11 +54,21 @@ The Tableau dashboard provides an interactive view of:
 
 Due to GitHub file size limitations, the dataset is not included in this repository.
 
-You can access the cleaned dataset here:  
-[Download Dataset](https://drive.google.com/file/d/1fcC6FGDrBirU0qtBuTytG_6vEgNLB--D/view?usp=drive_link)
+Download the cleaned dataset here:  
+https://drive.google.com/file/d/1fcC6FGDrBirU0qtBuTytG_6vEgNLB--D/view?usp=drive_link  
 
 Original dataset:  
 https://archive.ics.uci.edu/ml/datasets/online+retail+ii  
+
+---
+
+## How to Open the Tableau Dashboard
+
+1. Download the dataset from the link above  
+2. Open Tableau Desktop  
+3. Open `retail_sales_dashboard.twb`  
+4. When prompted, connect the downloaded CSV file  
+5. The dashboard will load automatically  
 
 ---
 
@@ -93,15 +104,12 @@ Retail Project/
 
 ---
 
-## Conclusion
-This project demonstrates how data analysis can be used to generate actionable business insights, particularly in identifying seasonal trends, product performance, and geographic concentration risks.
 
 ---
 
-## Future Improvements
-- Customer segmentation using RFM analysis  
-- Predictive sales modeling  
-- Dashboard comparison using Power BI
+
+## Conclusion
+This project demonstrates how data analysis can be used to identify revenue patterns, key products, and market concentration, enabling better business decision-making.
 
 ---
 
