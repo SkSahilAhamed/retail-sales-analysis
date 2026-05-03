@@ -23,10 +23,11 @@ The analysis is performed using Python, SQL, and Tableau, with results presented
 ---
 
 ## Key Metrics
-- Total Revenue: 16.40M  
+- Total Transactions: ~749K  
 - Total Orders: 35,142  
-- Average Order Value: 466.55  
-
+- Total Revenue: 16.40M  
+- Average Order Value: 466.55
+  
 ---
 
 ## Key Insights
